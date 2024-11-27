@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.section {
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.section h1 {
+  z-index: 2;
+  margin-bottom: 20px;
+}
+
+.section .images {
+  display: flex;
+  gap: 20px;
+  z-index: 2;
+}
+
+.section img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.section.games {
+  background: url('fundo-jogos.jpg') no-repeat center center/cover;
+}
+
+.section.series {
+  background: url('fundo-series.jpg') no-repeat center center/cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
