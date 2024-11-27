@@ -1,1 +1,3 @@
-
+git add fundo-bee-swarm.png
+git commit -m "fundo-bee-swarm.png"
+git push
